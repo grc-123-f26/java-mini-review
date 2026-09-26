@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Practice {
 
     /**
@@ -16,8 +18,15 @@ public class Practice {
      * 
      * @param items an array of strings to print
      */
+
+    
     public static void printItems(String[] items) {
         // TODO: Implement this method here!
+        // A for loop; looping over the size of the String array.
+        for (int i = 0; i < items.length; i++)
+        {
+            System.out.println(items[i]);
+        }
     }
 
     /**
@@ -45,8 +54,16 @@ public class Practice {
      */
     public static boolean moreThanDouble(int a, int b) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        // If statement added, checks to see if a is greater than b times 2.
+       if (a > 2 * b)
+    {
+        return true;
     }
+    else
+    {
+        return false;   
+    }
+}
 
 
     /**
@@ -71,7 +88,17 @@ public class Practice {
      */
     public static boolean allStartWithA(String[] words) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        for (int i = 0; i < words.length; i++) {
+            // Temporary string, brings to lower case of current word in loop.
+            String wordCheck = words[i].toLowerCase();
+            // If statement for check on first letter of word. If not, returns false in boolean.
+        if(wordCheck.charAt(0) != 'a')
+        {
+            return false;
+        }
+        
+    }
+        return true;
     }
 
     public static void main(String[] args) {
