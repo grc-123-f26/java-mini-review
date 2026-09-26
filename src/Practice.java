@@ -1,3 +1,5 @@
+import java.util.*;
+
 public class Practice {
 
     /**
@@ -16,8 +18,15 @@ public class Practice {
      * 
      * @param items an array of strings to print
      */
+
+    
     public static void printItems(String[] items) {
         // TODO: Implement this method here!
+        // A for loop; looping over the size of the String array.
+        for (int i = 0; i < items.length; i++)
+        {
+            System.out.println(items[i]);
+        }
     }
 
     /**
@@ -45,7 +54,6 @@ public class Practice {
      */
     public static boolean moreThanDouble(int a, int b) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
     }
 
 
