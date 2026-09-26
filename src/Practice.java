@@ -88,7 +88,17 @@ public class Practice {
      */
     public static boolean allStartWithA(String[] words) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        for (int i = 0; i < words.length; i++) {
+            // Temporary string, brings to lower case of current word in loop.
+            String wordCheck = words[i].toLowerCase();
+            // If statement for check on first letter of word. If not, returns false in boolean.
+        if(wordCheck.charAt(0) != 'a')
+        {
+            return false;
+        }
+        
+    }
+        return true;
     }
 
     public static void main(String[] args) {
