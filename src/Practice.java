@@ -54,7 +54,16 @@ public class Practice {
      */
     public static boolean moreThanDouble(int a, int b) {
         // TODO: Delete the dummy return statement and implement this method here!
+        // If statement added, checks to see if a is greater than b times 2.
+       if (a > 2 * b)
+    {
+        return true;
     }
+    else
+    {
+        return false;   
+    }
+}
 
 
     /**
