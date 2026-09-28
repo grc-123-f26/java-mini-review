@@ -3,10 +3,11 @@ Practice writing Java code and using git/GitHub. Complete the github-intro assig
 
 ## Setup
 Fork and clone this repository. Do not forget to fork before cloning! For a refresher on git/GitHub, see the instructions on the github-intro repository. You will not need to create a `cs123` directory again, you can re-use the exisiting one you have already made.
+first change gonna happen here
 
 ## **Commit Frequently!**
 To receive full credit **you MUST commit frequently** for this assignment. At the very least, make one commit after completing each method. Make sure to push after each commit!
-
+ and change 3 comes here
 ## Coding
 Open this repository using VS Code. Edit the Practice.java file to implement the three methods according to the provided javadoc.
 
