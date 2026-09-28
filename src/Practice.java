@@ -48,7 +48,7 @@ public class Practice {
      * @param b an int
      * @return true if a is strictly more than twice the value of b, false otherwise
      */
-    public static boolean moreThanDouble(double a, double b) {
+    public static boolean moreThanDouble(int a, int b) {
         return a > (2.0 * b);
     }
 
