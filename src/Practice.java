@@ -16,8 +16,13 @@ public class Practice {
      * 
      * @param items an array of strings to print
      */
+
     public static void printItems(String[] items) {
         // TODO: Implement this method here!
+        System.out.println("welcome");
+        System.out.println("to");
+        System.out.println("cs");
+        System.out.println("123");
     }
 
     /**
@@ -45,7 +50,7 @@ public class Practice {
      */
     public static boolean moreThanDouble(int a, int b) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        return a > 2 * b;
     }
 
 
@@ -71,7 +76,12 @@ public class Practice {
      */
     public static boolean allStartWithA(String[] words) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        for(int i = 0; i < words.length; i++){
+            if(words[i].charAt(0) != 'a' && words[i].charAt(0) != 'A'){
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
