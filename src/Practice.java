@@ -18,6 +18,10 @@ public class Practice {
      */
     public static void printItems(String[] items) {
         // TODO: Implement this method here!
+        // go through each item in the array, print it on different lines
+        for (String item : items) {
+            System.out.println(item);
+        }
     }
 
     /**
@@ -45,7 +49,8 @@ public class Practice {
      */
     public static boolean moreThanDouble(int a, int b) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        // returns if a is more than twice of b
+        return a > 2 * b;
     }
 
 
@@ -71,7 +76,13 @@ public class Practice {
      */
     public static boolean allStartWithA(String[] words) {
         // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+        // loop throught each word in array, and check whether it starts with a, if not, return false
+        for (String word : words) {
+            if (word.charAt(0) != 'A' && word.charAt(0) != 'a') {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
