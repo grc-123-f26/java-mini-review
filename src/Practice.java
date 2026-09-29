@@ -17,7 +17,10 @@ public class Practice {
      * @param items an array of strings to print
      */
     public static void printItems(String[] items) {
-        // TODO: Implement this method here!
+        for(int i = 0; i < items.length; i++)
+        {
+            System.out.println(items[i]);
+        }
     }
 
     /**
@@ -43,8 +46,12 @@ public class Practice {
      * @param b an int
      * @return true if a is strictly more than twice the value of b, false otherwise
      */
-    public static boolean moreThanDouble(int a, int b) {
-        // TODO: Delete the dummy return statement and implement this method here!
+    public static boolean moreThanDouble(int a, int b) 
+    {
+        if(a > b*2)
+        {
+            return true;
+        }
         return false;
     }
 
@@ -69,9 +76,16 @@ public class Practice {
      * @param words a array of words
      * @return true if every word starts with A (case-insensitive), false otherwise.
      */
-    public static boolean allStartWithA(String[] words) {
-        // TODO: Delete the dummy return statement and implement this method here!
-        return false;
+    public static boolean allStartWithA(String[] words) 
+    {
+        for(int i = 0; i < words.length; i++)
+        {
+            if(words[i].charAt(0) != 'A' && words[i].charAt(0) != 'a')
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args) {
